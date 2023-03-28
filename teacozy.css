@@ -1,0 +1,238 @@
+* {
+    background-color: black;
+    color: seashell;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    height: 68px;
+    text-decoration: underline;
+    padding: 0px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    opacity: 0.7;
+    position: fixed;
+    margin-top: 0px;
+    font-family: Helvetica;
+    font-size: 22px;
+    z-index: 1;
+  }
+  .navbar-logo img {
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 10px;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .Slogan {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 22px;
+  }
+  .Banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0px;
+    margin: auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*70pf0z*_ga*OTM4NjQzOTA5MS4xNjc3NDA0NTUw*_ga_3LRZM6TM9L*MTY3OTY2NDYzMS4zNS4wLjE2Nzk2NjQ2MzEuMC4wLjA.");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 702px;
+    width: 1200px;
+    opacity: 0.9;
+  }
+  .Slogan2 {
+    padding-bottom: 0px;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 22px;
+    width: 1000px;
+    opacity: 0.9;
+  }
+  .Banner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0px;
+    width: 100%;
+    margin-top: 50px;
+    opacity: 0.9;
+  }
+  .Highlights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 1000px;
+    height: 580px;
+    margin: auto;
+  }
+  .Teas {
+    position: absolute;
+    bottom: 0;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Helvetica;
+    width: 100%;
+  }
+  .Highlight1 img {
+    width: 300px;
+    height: 200px;
+  }
+  .Highlight2 img {
+    width: 300px;
+    height: 200px;
+  }
+  .Highlight3 img {
+    width: 300px;
+    height: 200px;
+  }
+  .Highlight4 img {
+    width: 300px;
+    height: 200px;
+  }
+  .Highlight5 img {
+    width: 300px;
+    height: 200px;
+  }
+  .Highlight1 {
+    display: flex;
+    width: 300px;
+    height: 232px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    position: relative;
+    opacity: 0.7;
+  }
+  .Highlight2 {
+    display: flex;
+    width: 300px;
+    height: 232px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    position: relative;
+    opacity: 0.7;
+  }
+  .Highlight3 {
+    display: flex;
+    width: 300px;
+    height: 232px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    position: relative;
+    opacity: 0.7;
+  }
+  .Highlight4 {
+    display: flex;
+    width: 300px;
+    height: 232px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    opacity: 0.7;
+  }
+  .Highlight5 {
+    display: flex;
+    width: 300px;
+    height: 232px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    opacity: 0.7;
+  }
+
+  .Locations {
+    margin: 20px auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width:auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    height: 500px;
+  }
+#Locations-Logo {
+    background-color: transparent;
+    margin: 0px auto;
+    padding-bottom: 15px;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.7;
+}
+.Locations-container {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+  .Location-item {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    padding: 0;
+    font-family: Helvetica;
+    opacity: 0.7;
+  }
+  .Contact-Section {
+    height: 200px;
+    width: 100%;
+  }
+  #Contact-Logo {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.7;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    opacity: 0.7;
+  }
+  #Copyright-Logo {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: Helvetica;
+    font-size: 15px;
+    opacity: 0.7;
+
+  }
