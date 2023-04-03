@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: auto;
+    overflow-y: scroll;
+    background-color: hwb(224 83% 11%);
+    }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    position: fixed;
+    background-color: rgb(38, 148, 167);
+    width: 100%;
+    opacity: 0.5;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.Jussential-Logo {
+    height: 600px;
+    width: 600px;
+    margin: 150px auto 30px;
+}
+h3 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+#navbar-logo {
+    text-align: left;
+    margin-left: 70px;
+    background-color: rgba(218, 223, 225, 1);
+}
+.article-1 {
+    border: 3px solid white;
+    margin-left: 900px;
+    margin-top: 300px;
+    text-align: justify;
+    padding: 10px;
+    top: 50px;
+    width: 300px;
+    height: 730px;
+    position:relative;
+    border-radius: 15px;
+    color:rgba(218, 223, 225, 1)
+}
+.links {
+    display: inline-block;
+    float: right;
+    padding: 20px;
+}
+
+/*Table1*/
+
+.Table1 {
+    height: 450px;
+}
+td {
+    width: 470px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 10px;
+    background-color:rgb(0, 153, 153);
+    opacity: 0.5;
+    color: white;
+}
+#Essential {
+    font-size: 38px;
+}
+#citation {
+    padding-top: 27px;
+}
+
+/*!Table2*/
+
+.Table-Services {
+    margin-top: 350px;
+}
+.Our-Services {
+    color: white;
+}
+#Services-Title1 {
+    text-align: center;
+    width:30px;
+    background-color:black;
+    opacity: 0.5;
+    color: white;
+}
+#Services-Title2 {
+    text-align: center;
+    width:30px;
+    background-color:rgba(159, 169, 169, 0.611);
+    opacity: 0.5;
+    color: white;
+}
+#Services-Title3 {
+    text-align: center;
+    width:30px;
+    background-color:rgba(199, 208, 208, 0.85);
+    opacity: 0.5;
+    color: white;
+}
+#Services-Description1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 10px;
+    background-color:black;
+    opacity: 0.5;
+    color: white;
+}
+#Services-Description2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 10px;
+    background-color:rgba(159, 169, 169, 0.611);
+    opacity: 0.5;
+    color: white;
+}
+#Services-Description3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 10px;
+    background-color:rgba(199, 208, 208, 0.85);
+    opacity: 0.5;
+    color: white;
+}
+#Read-More1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color:black;
+    opacity: 0.5;
+    color: white;
+}
+#Read-More2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color:rgba(159, 169, 169, 0.611);
+    opacity: 0.5;
+    color: white;
+}
+#Read-More3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color:rgba(199, 208, 208, 0.85);
+    opacity: 0.5;
+    color: white;
+}
